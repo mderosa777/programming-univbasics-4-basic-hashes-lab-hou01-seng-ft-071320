@@ -1,16 +1,22 @@
 def new_hash
+  new_hash={}
   # return an empty hash
 end
 
 def my_hash
-  # return a valid hash with any key/value pair of your choice
+ my_hash={"house"=>2,"cars"=>3,"oilpaintings"=>3,"kids"=>2} # return a valid hash with any key/value pair of your choice
 end
-
+my_hash["house"]
 def pioneer
-  # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+ pioneer={:name =>"Grace Hopper",:house =>"blue", :car =>"red"}
 end
-
+pioneer[:name]
 
 def id_hash_generator(number)
-  # return a hash with a key :id assigned to the provided number
-end
+  { id: number}
+         
+  end 
+  
+  
+  
+  
